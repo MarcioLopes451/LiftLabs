@@ -14,7 +14,7 @@ export default function HomePage() {
             AND ACHIEVE YOUR FITNESS GOALS WITH US
           </p>
           <div className="mt-[30px]">
-            <MainButton text="OUR EXERCISES" />
+            <MainButton text="OUR EXERCISE" />
           </div>
         </div>
       </div>
