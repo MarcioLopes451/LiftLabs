@@ -1,12 +1,14 @@
 import Navbar from "../Components/Nav/Navbar";
 import HeroImg from "../Images/pexels-tima-miroshnichenko-5327534.jpg";
 import MainButton from "../Components/MainButton";
+import OurServices from "../Components/OurServices/OurServices";
+import SponsorBanners from "../Components/SponsorBanners/SponsorBanners";
 
 export default function HomePage() {
   return (
     <>
       <Navbar />
-      <div className="w-full relative">
+      <section className="w-full relative">
         <img src={HeroImg} className="h-[504px]" />
         <div className="absolute top-36 text-white px-[32px]">
           <p className="font-bold w-[217px] text-xl font-Roboto">
@@ -17,7 +19,9 @@ export default function HomePage() {
             <MainButton text="OUR EXERCISE" />
           </div>
         </div>
-      </div>
+      </section>
+      <OurServices />
+      <SponsorBanners />
     </>
   );
 }

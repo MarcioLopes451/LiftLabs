@@ -4,7 +4,9 @@ import HomePage from "./Pages/HomePage";
 function App() {
   return (
     <>
-      <HomePage />
+      <div className="bg-[#141619]">
+        <HomePage />
+      </div>
     </>
   );
 }
