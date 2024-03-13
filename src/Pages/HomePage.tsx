@@ -3,6 +3,7 @@ import HeroImg from "../Images/pexels-tima-miroshnichenko-5327534.jpg";
 import MainButton from "../Components/MainButton";
 import OurServices from "../Components/OurServices/OurServices";
 import SponsorBanners from "../Components/SponsorBanners/SponsorBanners";
+import Trainers from "../Components/Trainers/Trainers";
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
       </section>
       <OurServices />
       <SponsorBanners />
+      <Trainers />
     </>
   );
 }
