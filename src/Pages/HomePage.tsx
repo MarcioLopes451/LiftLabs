@@ -4,6 +4,7 @@ import MainButton from "../Components/MainButton";
 import OurServices from "../Components/OurServices/OurServices";
 import SponsorBanners from "../Components/SponsorBanners/SponsorBanners";
 import Trainers from "../Components/Trainers/Trainers";
+import Testimonials from "../Components/Testimonials/Testimonials";
 
 export default function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default function HomePage() {
       <OurServices />
       <SponsorBanners />
       <Trainers />
+      <Testimonials />
     </>
   );
 }
