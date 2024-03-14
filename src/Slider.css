@@ -12,12 +12,6 @@
     padding: 0 32px;
   }
   
-  /* Style for the active slide */
-  .slide.active {
-     /* Add your styling for the active slide here */
-  }
-  
-  /* Adjust for mobile */
   @media screen and (max-width: 425px) {
     .slider {
       flex-wrap: nowrap;
@@ -26,8 +20,7 @@
       width: 100%;
     }
   }
-  
-  /* Adjust for tablet */
+
   @media (min-width: 769px) and (max-width: 1024px) {
     .slide {
       width: 50%;
