@@ -1,0 +1,26 @@
+.question-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease; /* Transition for arrow rotation */
+}
+
+.arrow.up {
+    transform: rotate(180deg); /* Rotate arrow when question is open */
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Transition for answer sliding effect */
+}
+
+.answer.open {
+    max-height: 100px; /* Set max-height to a large value to allow sliding animation */
+}

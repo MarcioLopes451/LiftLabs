@@ -1,7 +1,8 @@
 import Logo from "../../Images/Liftlabs (1)-cropped.svg";
 import Instagram from "../../Images/1161953_instagram_icon 1.png";
-import Twiiter from "../../Images/5305170_bird_social media_social network_tweet_twitter_icon 1.png";
+import Twitter from "../../Images/5305170_bird_social media_social network_tweet_twitter_icon 1.png";
 import Facebook from "../../Images/317727_facebook_social media_social_icon 1.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,11 +11,21 @@ export default function Footer() {
         <img src={Logo} className="w-[59px] h-[53px]" />
         <div className="flex justify-center items-start flex-row gap-20">
           <div className="flex justify-center items-start flex-col gap-[50px]">
-            <p className="font-semibold">HOME</p>
-            <p>Exercises</p>
-            <p>Workouts</p>
-            <p>About</p>
-            <p>Contact</p>
+            <Link to="/liftLabs/">
+              <p className="font-semibold">HOME</p>
+            </Link>
+            <Link to="/liftLabs/exercise">
+              <p>Exercises</p>
+            </Link>
+            <Link to="/liftLabs/workouts">
+              <p>Workouts</p>
+            </Link>
+            <Link to="/liftLabs/about">
+              <p>About</p>
+            </Link>
+            <Link to="/liftLabs/contact">
+              <p>Contact</p>
+            </Link>
           </div>
           <div className="flex justify-center items-start flex-col gap-[50px]">
             <p className="font-semibold">SUPPORT</p>
@@ -25,7 +36,7 @@ export default function Footer() {
         </div>
         <div className="mt-6 flex justify-evenly items-center gap-5">
           <img src={Instagram} />
-          <img src={Twiiter} />
+          <img src={Twitter} />
           <img src={Facebook} />
         </div>
       </div>
