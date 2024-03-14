@@ -1,4 +1,3 @@
-import Navbar from "../Components/Nav/Navbar";
 import HeroImg from "../Images/pexels-tima-miroshnichenko-5327534.jpg";
 import MainButton from "../Components/MainButton";
 import OurServices from "../Components/OurServices/OurServices";
@@ -6,12 +5,10 @@ import SponsorBanners from "../Components/SponsorBanners/SponsorBanners";
 import Trainers from "../Components/Trainers/Trainers";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import SignUpNow from "../Images/AdobeStock_320459487.jpeg";
-import Footer from "../Components/Footer/Footer";
 
 export default function HomePage() {
   return (
     <>
-      <Navbar />
       <section className="w-full relative">
         <img src={HeroImg} className="h-[504px]" />
         <div className="absolute top-36 text-white px-[32px]">
@@ -37,7 +34,6 @@ export default function HomePage() {
           <MainButton text="CLICK HERE" />
         </div>
       </section>
-      <Footer />
     </>
   );
 }

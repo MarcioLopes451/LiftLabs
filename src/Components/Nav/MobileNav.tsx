@@ -10,21 +10,11 @@ export default function MobileNav({ isOpen }: Nav) {
     <div className="fixed top-24 bg-transparent z-50 font-Roboto w-full">
       <div className="bg-black py-9 h-screen">
         <div className="flex mt-20 flex-col gap-9 text-white text-2xl px-6 font-light tracking-widest text-center">
-          <Link to="/about" className="">
-            HOME
-          </Link>
-          <Link to="/locations" className="">
-            EXERCISES
-          </Link>
-          <Link to="/contact" className="">
-            WORKOUTS
-          </Link>
-          <Link to="/contact" className="">
-            ABOUT
-          </Link>
-          <Link to="/contact" className="">
-            CONTACT
-          </Link>
+          <Link to="/liftLabs/">HOME</Link>
+          <Link to="/liftLabs/exercise">EXERCISES</Link>
+          <Link to="/liftLabs/workouts">WORKOUTS</Link>
+          <Link to="/liftLabs/about">ABOUT</Link>
+          <Link to="/liftLabs/contact">CONTACT</Link>
         </div>
       </div>
     </div>
