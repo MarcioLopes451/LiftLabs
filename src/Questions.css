@@ -8,19 +8,19 @@
 
 .arrow {
     font-size: 18px;
-    transition: transform 0.3s ease; /* Transition for arrow rotation */
+    transition: transform 0.3s ease; 
 }
 
 .arrow.up {
-    transform: rotate(180deg); /* Rotate arrow when question is open */
+    transform: rotate(180deg); 
 }
 
 .answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease; /* Transition for answer sliding effect */
+    transition: max-height 0.3s ease; 
 }
 
 .answer.open {
-    max-height: 100px; /* Set max-height to a large value to allow sliding animation */
+    max-height: 100px; 
 }
