@@ -4,11 +4,11 @@ import "../../Slider.css";
 
 export default function TestimonialCards() {
   return (
-    <div className="slider relative">
+    <div className="slider relative md:gap-10">
       {TestimonialCardsList.map((card, id) => (
         <div
           key={id}
-          className="slide bg-[#1B2126] w-[310px] flex justify-center items-start flex-col gap-[25px] px-[17.5px] py-[45px] font-Roboto text-white"
+          className="slide bg-[#1B2126] w-[310px] flex justify-center items-start flex-col gap-[25px] px-[17.5px] py-[45px] font-Roboto text-white md:w-[498px]"
         >
           <div className="flex gap-5">
             <img
