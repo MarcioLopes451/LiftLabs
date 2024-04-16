@@ -8,9 +8,12 @@ export default function Footer() {
   return (
     <section className="mt-20 px-[32px] text-white font-Roboto">
       <div className="flex justify-center items-center flex-col gap-10">
-        <img src={Logo} className="w-[59px] h-[53px]" />
-        <div className="flex justify-center items-start flex-row gap-20">
-          <div className="flex justify-center items-start flex-col gap-[50px]">
+        <img
+          src={Logo}
+          className="w-[59px] h-[53px] md:w-[120px] md:h-[91.58px]"
+        />
+        <div className="flex justify-center items-start flex-row gap-20 md:flex-col md:gap-10 md:items-center">
+          <div className="flex justify-center items-start flex-col gap-[50px] md:flex-row">
             <Link to="/liftLabs/">
               <p className="font-semibold">HOME</p>
             </Link>
@@ -27,7 +30,7 @@ export default function Footer() {
               <p>Contact</p>
             </Link>
           </div>
-          <div className="flex justify-center items-start flex-col gap-[50px]">
+          <div className="flex justify-center items-start flex-col gap-[50px] md:flex-row">
             <p className="font-semibold">SUPPORT</p>
             <p>Privacy Policy</p>
             <p>Terms Of Use</p>
@@ -40,7 +43,9 @@ export default function Footer() {
           <img src={Facebook} />
         </div>
       </div>
-      <p className="text-center mt-5">Privacy Policy | © 2024 LiftLabs</p>
+      <p className="text-center mt-5 md:mt-10 pb-10 opacity-80">
+        Privacy Policy | © 2024 LiftLabs
+      </p>
     </section>
   );
 }

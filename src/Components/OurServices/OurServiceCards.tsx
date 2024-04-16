@@ -6,7 +6,7 @@ export default function OurServiceCards() {
       {CardList.map((card, id) => (
         <div
           key={id}
-          className="bg-[#1B2126] w-[310px] h-[291px] flex justify-center items-center flex-col gap-[25px] text-center px-[17.5px] py-[45px] font-Roboto text-white"
+          className="bg-[#1B2126] w-[310px] h-[291px] flex justify-center items-center flex-col gap-[25px] text-center px-[17.5px] py-[45px] font-Roboto text-white md:w-[680px]"
         >
           <img src={card.img} alt={card.title} className="w-[60px] h-[60px]" />
           <p className="font-semibold text-2xl">{card.title}</p>

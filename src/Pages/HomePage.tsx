@@ -12,7 +12,7 @@ export default function HomePage() {
       <section className="w-full relative">
         <img src={HeroImg} className="h-[504px]" />
         <div className="absolute top-36 text-white px-[32px]">
-          <p className="font-bold w-[217px] text-xl font-Roboto">
+          <p className="font-bold w-[217px] text-xl font-Roboto md:w-[342px] md:text-2xl">
             EMPOWERING YOUR JOURNEY: TRANSFORM YOUR BODY, ENERGIZE YOUR MIND,
             AND ACHIEVE YOUR FITNESS GOALS WITH US
           </p>
@@ -27,7 +27,7 @@ export default function HomePage() {
       <Testimonials />
       <section className="mt-[200px] relative">
         <img src={SignUpNow} className="h-[400px] object-cover" />
-        <div className="absolute top-[150px] left-[80px] flex justify-center items-center flex-col gap-[70px]">
+        <div className="absolute top-[150px] left-[80px] flex justify-center items-center flex-col gap-[70px] md:left-[280px]">
           <p className="font-bold font-Roboto text-3xl text-white">
             SIGN UP NOW
           </p>
