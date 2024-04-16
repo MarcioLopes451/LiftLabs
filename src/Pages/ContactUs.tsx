@@ -8,10 +8,10 @@ export default function ContactUs() {
   return (
     <>
       <HeaderSection title="CONTACT US" />
-      <section className="mt-10 px-[32px]">
+      <section className="mt-10 px-[32px] md:mt-[150px]">
         <div className="border-white border-[3px] border-opacity-20">
           <div className="flex justify-center items-center flex-col gap-10 pb-5">
-            <div className="flex justify-center items-center flex-col gap-10 py-5">
+            <div className="flex justify-center items-center flex-col gap-10 py-5 md:flex-row">
               <div>
                 <p className="font-bold text-2xl">Your Name</p>
                 <div className="border-white border-[3px] border-opacity-20 w-[290px] h-[48px] mt-5 rounded-lg"></div>
@@ -24,11 +24,11 @@ export default function ContactUs() {
             <div className="flex justify-center items-center flex-col gap-10 py-5">
               <div>
                 <p className="font-bold text-2xl">Subject</p>
-                <div className="border-white border-[3px] border-opacity-20 w-[290px] h-[48px] mt-5 rounded-lg"></div>
+                <div className="border-white border-[3px] border-opacity-20 w-[290px] h-[48px] mt-5 rounded-lg md:w-[620px]"></div>
               </div>
               <div>
                 <p className="font-bold text-2xl">Your Message</p>
-                <div className="border-white border-[3px] border-opacity-20 w-[290px] h-[341px] mt-5 rounded-lg"></div>
+                <div className="border-white border-[3px] border-opacity-20 w-[290px] h-[341px] mt-5 rounded-lg md:w-[620px]"></div>
               </div>
             </div>
             <MainButton text="SUBMIT" />
@@ -50,7 +50,10 @@ export default function ContactUs() {
               <p>01632 960 001</p>
               <p>support@liftlabs.com</p>
             </div>
-            <img src={LiftLabsLocation} className="max-w-[375px] h-[300px]" />
+            <img
+              src={LiftLabsLocation}
+              className="max-w-[375px] h-[300px] md:max-w-[680px] object-cover"
+            />
           </div>
         </div>
       </section>

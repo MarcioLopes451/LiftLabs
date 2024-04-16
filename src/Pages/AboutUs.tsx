@@ -9,7 +9,7 @@ export default function AboutUs() {
   return (
     <>
       <HeaderSection title="ABOUT US" />
-      <section className="mt-10 px-[32px]">
+      <section className="mt-10 px-[32px] md:mt-40 md:px-[52px]">
         <div className="text-center flex justify-center items-center flex-col">
           <p className="font-bold text-2xl">WHO WE ARE</p>
           <p className="mt-10 text-[15px] font-semibold">
