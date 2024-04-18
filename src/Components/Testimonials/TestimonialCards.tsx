@@ -4,7 +4,7 @@ import "../../Slider.css";
 
 export default function TestimonialCards() {
   return (
-    <div className="slider relative md:gap-10">
+    <div className="slider relative md:gap-10 lg:mt-20">
       {TestimonialCardsList.map((card, id) => (
         <div
           key={id}
