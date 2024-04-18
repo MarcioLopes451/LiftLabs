@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { QuestionsData } from "./QuestionsData";
+import Gallery4 from "../../Images/AdobeStock_333919715.jpeg";
 import "../../Questions.css";
 
 export default function FrequentQuestions() {
@@ -11,34 +12,37 @@ export default function FrequentQuestions() {
     setActiveQuestion(ids);
   };
   return (
-    <section className="mt-10 flex justify-center items-center flex-col gap-5 ">
-      {QuestionsData.map((question) => (
-        <div key={question.id}>
-          <div
-            onClick={() => openAnswer(question.id)}
-            className="question-header"
-            style={{
-              borderBottom:
-                activeQuestion === question.id ? "" : "1px solid white",
-            }}
-          >
-            <p
-              className="font-bold text-base w-[250px]"
+    <section className="mt-10 flex justify-center items-center flex-col gap-5 lg:flex-row">
+      <img src={Gallery4} className="mt-10 lg:w-[665px]" />
+      <div className="mt-10 flex justify-center items-center flex-col gap-5">
+        {QuestionsData.map((question) => (
+          <div key={question.id}>
+            <div
+              onClick={() => openAnswer(question.id)}
+              className="question-header"
               style={{
-                color: activeQuestion === question.id ? "#F9C305" : "white",
+                borderBottom:
+                  activeQuestion === question.id ? "" : "1px solid white",
               }}
             >
-              {question.question}
-            </p>
-            <span className={`arrow ${open === question.id ? "up" : "down"}`}>
-              &#9660;
-            </span>
+              <p
+                className="font-bold text-base w-[250px]"
+                style={{
+                  color: activeQuestion === question.id ? "#F9C305" : "white",
+                }}
+              >
+                {question.question}
+              </p>
+              <span className={`arrow ${open === question.id ? "up" : "down"}`}>
+                &#9660;
+              </span>
+            </div>
+            <div className={`answer ${open === question.id ? "open" : ""}`}>
+              <p className="px-[10px]">{question.answer}</p>
+            </div>
           </div>
-          <div className={`answer ${open === question.id ? "open" : ""}`}>
-            <p className="px-[10px]">{question.answer}</p>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
 }

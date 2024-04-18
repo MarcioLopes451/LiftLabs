@@ -6,8 +6,11 @@ import Mountain from "../../Images/2799200_goals_success_flag_goal_mountain_icon
 export default function OurHistory() {
   return (
     <section className="mt-10">
-      <div className="flex justify-center items-center flex-col md:flex-row md:flex-wrap">
-        <div className="bg-[#1B2126] w-[310px] flex justify-center items-center flex-col gap-3 text-center px-[17.5px] py-[45px] md:w-[330px] md:h-[365px]">
+      <div className="flex justify-center items-center flex-col md:flex-row md:flex-wrap l">
+        <div
+          className="bg-[#1B2126] w-[310px] flex justify-center items-center flex-col gap-3 text-center px-[17.5px] py-[45px] md:w-[330px] 
+        md:h-[365px] lg:w-[655px] lg:h-[385px]"
+        >
           <img src={Arrow} className="w-[100px] h-[100px]" />
           <p className="font-semibold text-2xl">Our History</p>
           <p className="font-semibold text-[15px]">
@@ -19,13 +22,13 @@ export default function OurHistory() {
         </div>
         <img
           src={Gallery2}
-          className="h-[365px] md:w-[330px] md:h-[365px] object-cover"
+          className="h-[365px] md:w-[330px] md:h-[365px] object-cover lg:w-[655px] lg:h-[385px]"
         />
         <img
           src={Gallery3}
-          className="h-[365px] md:w-[330px] md:h-[365px] object-cover"
+          className="h-[365px] md:w-[330px] md:h-[365px] object-cover lg:w-[655px] lg:h-[385px]"
         />
-        <div className="bg-[#1B2126] w-[310px] flex justify-center items-center flex-col gap-3 text-center px-[17.5px] py-[45px] md:w-[330px] md:h-[365px]">
+        <div className="bg-[#1B2126] w-[310px] flex justify-center items-center flex-col gap-3 text-center px-[17.5px] py-[45px] md:w-[330px] md:h-[365px] lg:w-[655px] lg:h-[385px]">
           <img src={Mountain} className="w-[100px] h-[100px]" />
           <p className="font-semibold text-2xl">Our History</p>
           <p className="font-semibold text-[15px]">
