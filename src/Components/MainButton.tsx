@@ -7,7 +7,7 @@ export default function MainButton({ text }: ButtonProps) {
   return (
     <Link
       to="/"
-      className="w-[168px] h-[49px] bg-[#F9C305] text-black px-[25px] py-[15px] font-semibold font-Roboto text-center 
+      className="w-[168px] h-[49px] bg-[#F9C305] text-black px-[25px] py-[15px] font-semibold font-Roboto text-center rounded-md 
       md:px-[30px]"
     >
       {text}
