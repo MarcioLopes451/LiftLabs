@@ -8,11 +8,11 @@ export default function AboutUs() {
   return (
     <>
       <HeaderSection title="ABOUT US" />
-      <section className="mt-10 px-[32px] md:mt-40 md:px-[52px]">
-        <div className="text-center flex justify-center items-center flex-col lg:flex-row lg:text-left lg:justify-between">
+      <section className="mt-10 px-[32px] md:mt-40 md:px-[52px] lg:px-[62px]">
+        <div className="text-center flex justify-center items-center flex-col lg:flex-row lg:text-left lg:justify-between lg:gap-7">
           <div>
             <p className="font-bold text-2xl">WHO WE ARE</p>
-            <p className="mt-10 text-[15px] font-semibold lg:w-[500px]">
+            <p className="mt-10 text-[15px] font-semibold lg:w-[420px] xl:w-[500px]">
               We are a dynamic workout brand dedicated to empowering individuals
               to achieve their fitness goals and lead healthier lifestyles. Our
               roots stem from a passion for fitness and a commitment to helping

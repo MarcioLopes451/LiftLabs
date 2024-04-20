@@ -9,8 +9,8 @@ export default function ContactUs() {
     <>
       <HeaderSection title="CONTACT US" />
       <section className="mt-10 px-[32px] md:mt-[150px]">
-        <div className="flex flex-col justify-center lg:flex-row lg:justify-between lg:pl-[64px] lg:pr-[200px]">
-          <div className="border-white border-[3px] border-opacity-20 p-10">
+        <div className="flex flex-col justify-center lg:flex-row lg:gap-[50px] lg:px-[50px] xl:gap-[100px]">
+          <div className="border-white border-[3px] border-opacity-20 p-10 rounded-md">
             <div className="flex justify-center items-center flex-col gap-10 pb-5">
               <div className="flex justify-center items-center flex-col gap-10 py-5 md:flex-row">
                 <div>
@@ -38,14 +38,14 @@ export default function ContactUs() {
 
           <div className="mt-10">
             <div className="flex justify-center items-center flex-col gap-[50px]">
-              <div className="flex justify-center items-center flex-col gap-[20px]">
+              <div className="flex justify-center items-center flex-col gap-[20px] text-center">
                 <img src={Location} className="lg:w-[100px]" />
                 <p className="font-bold text-xl lg:text-3xl">ADDRESS INFO</p>
                 <p>Turners Road</p>
                 <p>London, E3 4LF</p>
                 <p>England, United Kingdom</p>
               </div>
-              <div className="flex justify-center items-center flex-col gap-[20px] lg:mt-[150px]">
+              <div className="flex justify-center items-center flex-col gap-[20px] lg:mt-[150px] text-center">
                 <img src={Phone} className="lg:w-[100px]" />
                 <p className="font-bold text-xl lg:text-3xl">CONTACT INFO</p>
                 <p>01632 960 001</p>

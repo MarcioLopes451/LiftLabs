@@ -9,7 +9,7 @@ export default function OurHistory() {
       <div className="flex justify-center items-center flex-col md:flex-row md:flex-wrap l">
         <div
           className="bg-[#1B2126] w-[310px] flex justify-center items-center flex-col gap-3 text-center px-[17.5px] py-[45px] md:w-[330px] 
-        md:h-[365px] lg:w-[655px] lg:h-[385px]"
+        md:h-[365px] lg:w-[450px] lg:h-[300px] xl:w-[655px] xl:h-[385px]"
         >
           <img src={Arrow} className="w-[100px] h-[100px]" />
           <p className="font-semibold text-2xl">Our History</p>
@@ -22,13 +22,13 @@ export default function OurHistory() {
         </div>
         <img
           src={Gallery2}
-          className="h-[365px] md:w-[330px] md:h-[365px] object-cover lg:w-[655px] lg:h-[385px]"
+          className="h-[365px] w-[310px] md:w-[330px] md:h-[365px] object-cover lg:w-[450px] lg:h-[300px] xl:w-[655px] xl:h-[385px]"
         />
         <img
           src={Gallery3}
-          className="h-[365px] md:w-[330px] md:h-[365px] object-cover lg:w-[655px] lg:h-[385px]"
+          className="h-[365px] md:w-[330px] md:h-[365px] object-cover lg:w-[450px] lg:h-[300px] xl:w-[655px] xl:h-[385px]"
         />
-        <div className="bg-[#1B2126] w-[310px] flex justify-center items-center flex-col gap-3 text-center px-[17.5px] py-[45px] md:w-[330px] md:h-[365px] lg:w-[655px] lg:h-[385px]">
+        <div className="bg-[#1B2126] w-[310px] flex justify-center items-center flex-col gap-3 text-center px-[17.5px] py-[45px] md:w-[330px] md:h-[365px] lg:w-[450px] lg:h-[300px] xl:w-[655px] xl:h-[385px]">
           <img src={Mountain} className="w-[100px] h-[100px]" />
           <p className="font-semibold text-2xl">Our History</p>
           <p className="font-semibold text-[15px]">

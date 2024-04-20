@@ -13,7 +13,7 @@ export default function FrequentQuestions() {
   };
   return (
     <section className="mt-10 flex justify-center items-center flex-col gap-5 lg:flex-row">
-      <img src={Gallery4} className="mt-10 lg:w-[665px]" />
+      <img src={Gallery4} className="mt-10 lg:w-[480px] xl:w-[665px]" />
       <div className="mt-10 flex justify-center items-center flex-col gap-5">
         {QuestionsData.map((question) => (
           <div key={question.id}>

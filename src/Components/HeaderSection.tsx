@@ -6,17 +6,15 @@ type HeaderProps = {
 
 export default function HeaderSection({ title }: HeaderProps) {
   return (
-    <div className="relative w-full h-[215px] mt-[100px]">
-      <img
-        src={Header}
-        className="w-full h-[215px] md:h-[300px] md:object-cover opacity-60"
-      />
-      <p
-        className="absolute top-[90px] font-Roboto text-white text-3xl font-bold left-[110px] 
-      md:left-[310px] lg:left-[630px]"
-      >
-        {title}
-      </p>
+    <div
+      className="w-full h-[215px] mt-[100px] bg-cover bg-center"
+      style={{ backgroundImage: `url(${Header})` }}
+    >
+      <div className="flex justify-center items-center">
+        <p className="font-Roboto text-white text-3xl font-bold mt-20">
+          {title}
+        </p>
+      </div>
     </div>
   );
 }

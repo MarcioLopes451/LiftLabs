@@ -8,6 +8,7 @@ import LoginBtn from "../../Images/2203549_admin_avatar_human_login_user_icon.pn
 export default function Navbar() {
   const [state, setState] = useState<boolean>(false);
   const [isTop, setIsTop] = useState<boolean>(true);
+  const [width, setWidth] = useState<number>(window.innerWidth);
   const location = useLocation();
 
   useEffect(() => {
@@ -24,11 +25,24 @@ export default function Navbar() {
     };
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const getBackgroundColor = () => {
     const { pathname } = location;
+    const isTransparent = width > 768 && !isTop;
 
     if (pathname === "/liftLabs/") {
-      return isTop ? "transparent" : "black";
+      return width <= 768 ? "black" : isTransparent ? "black" : "transparent";
     } else {
       return "black";
     }
@@ -40,7 +54,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`w-full h-[101px] bg-black z-50 fixed top-0 transition-colors`}
+      className="w-full h-[101px] bg-black z-50 fixed top-0 transition-colors"
       style={{
         backgroundColor: getBackgroundColor(),
         backdropFilter:

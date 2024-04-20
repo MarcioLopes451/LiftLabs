@@ -12,7 +12,7 @@ export default function HomePage() {
       <section className="w-full relative">
         <img
           src={HeroImg}
-          className="h-[504px] lg:w-full lg:h-[779px] brightness-90"
+          className="h-[504px] lg:w-full lg:h-[779px] brightness-90 w-full object-cover"
         />
         <div className="absolute top-36 text-white px-[32px] lg:px-[150px] lg:top-56">
           <p
@@ -31,16 +31,15 @@ export default function HomePage() {
       <SponsorBanners />
       <Trainers />
       <Testimonials />
-      <section className="mt-[200px] relative">
-        <img
-          src={SignUpNow}
-          className="h-[400px] object-cover lg:w-full lg:h-[500px] brightness-90"
-        />
+      <section
+        className="mt-[200px] h-[400px] lg:w-full lg:h-[500px] brightness-90 bg-cover"
+        style={{ backgroundImage: `url(${SignUpNow})` }}
+      >
         <div
-          className="absolute top-[150px] left-[80px] flex justify-center items-center flex-col gap-[70px] 
-        md:left-[280px] lg:left-[630px]"
+          className="flex justify-center items-center flex-col gap-[70px] 
+        "
         >
-          <p className="font-bold font-Roboto text-3xl text-white">
+          <p className="font-bold font-Roboto text-3xl text-white mt-32">
             SIGN UP NOW
           </p>
           <MainButton text="CLICK HERE" />
