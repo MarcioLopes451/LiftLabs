@@ -3,6 +3,7 @@ import Location from "../Images/352521_location_on_icon.png";
 import Phone from "../Images/352510_local_phone_icon.png";
 import LiftLabsLocation from "../Images/liftlabs google maps.png";
 import { useState, useEffect } from "react";
+import "../App.css";
 
 export default function ContactUs() {
   const [firstName, setFirstName] = useState<string>("");
@@ -10,6 +11,7 @@ export default function ContactUs() {
   const [subject, setSubject] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const [cols, setCols] = useState<number>(50);
+  const [validation, setValidation] = useState<boolean>(false);
   const emailRegex = /\S+@\S+\.\S+/;
 
   useEffect(() => {
@@ -53,6 +55,11 @@ export default function ContactUs() {
     setMessage("");
     setEmail("");
     setSubject("");
+    setValidation(true);
+
+    setTimeout(() => {
+      setValidation(false);
+    }, 5000);
   };
   return (
     <>
@@ -113,6 +120,13 @@ export default function ContactUs() {
               >
                 SUBMIT
               </button>
+              {validation && (
+                <div className="fixed top-[150px] left-10 bg-blue-600 w-[300px] h-[40px] rounded-md fade-in-out">
+                  <div className="flex justify-center items-center mt-2">
+                    <p>Message has been sent!</p>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
