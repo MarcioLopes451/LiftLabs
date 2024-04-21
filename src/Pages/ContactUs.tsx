@@ -1,7 +1,6 @@
 import HeaderSection from "../Components/HeaderSection";
 import Location from "../Images/352521_location_on_icon.png";
 import Phone from "../Images/352510_local_phone_icon.png";
-import LiftLabsLocation from "../Images/liftlabs google maps.png";
 import { useState, useEffect } from "react";
 import "../App.css";
 
@@ -149,10 +148,13 @@ export default function ContactUs() {
           </div>
         </div>
         <div className="flex justify-center items-center mt-20">
-          <img
-            src={LiftLabsLocation}
-            className="w-[375px] h-[300px] md:w-[680px] object-cover lg:w-[1300px] lg:h-[400px]"
-          />
+          <iframe
+            width="100%"
+            height="400"
+            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Turners%20Road+(LiftLabs)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          >
+            <a href="https://www.gps.ie/">gps tracker sport</a>
+          </iframe>
         </div>
       </section>
     </>
