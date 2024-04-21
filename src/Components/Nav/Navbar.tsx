@@ -110,7 +110,7 @@ export default function Navbar() {
       </div>
       <MobileNav isOpen={state} onClose={handleClick} />
       {app && (
-        <div className="fixed top-[100px] left-10 bg-blue-600 w-[300px] h-[40px] rounded-md fade-in-out">
+        <div className="fixed top-[100px] left-10 bg-blue-600 w-[300px] h-[40px] rounded-md fade-in">
           <div className="flex justify-center items-center mt-2 font-Roboto">
             <p className="font-regular">
               Download our app for full experience!

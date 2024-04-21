@@ -7,8 +7,8 @@ export default function TrainerCards() {
       {TrainerCardList.map((card, index) => (
         <div key={index} className="slide">
           <img src={card.img} alt={card.name} className="w-[254px] h-[349px]" />
-          <div className="text-center">
-            <p>{card.name}</p>
+          <div className="text-center font-Roboto mt-3">
+            <p className="font-semibold underline">{card.name}</p>
             <p>{card.type}</p>
           </div>
         </div>
