@@ -43,7 +43,7 @@ export default function Navbar() {
     const { pathname } = location;
     const isTransparent = width > 768 && !isTop;
 
-    if (pathname === "/liftLabs/") {
+    if (pathname === "/LiftLabs/") {
       return width <= 768 ? "black" : isTransparent ? "black" : "transparent";
     } else {
       return "black";
@@ -78,7 +78,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center px-[32px] pt-[24px] lg:px-[65px] lg:pt-[10px]">
         <img src={Logo} className="w-[59px] h-[53px] lg:w-[90px] lg:h-[91px]" />
         <div className="hidden lg:flex flex-row gap-9 text-white text-[16px] px-6 font-medium tracking-widest text-center">
-          <Link to="/liftLabs/" onClick={scrollUp}>
+          <Link to="/LiftLabs/" onClick={scrollUp}>
             HOME
           </Link>
           <Link to="#" onClick={handleAppClick}>
@@ -87,10 +87,10 @@ export default function Navbar() {
           <Link to="#" onClick={handleAppClick}>
             WORKOUTS
           </Link>
-          <Link to="/liftLabs/about" onClick={scrollUp}>
+          <Link to="/LiftLabs/about" onClick={scrollUp}>
             ABOUT
           </Link>
-          <Link to="/liftLabs/contact" onClick={scrollUp}>
+          <Link to="/LiftLabs/contact" onClick={scrollUp}>
             CONTACT
           </Link>
         </div>

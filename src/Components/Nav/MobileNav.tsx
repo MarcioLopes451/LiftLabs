@@ -24,7 +24,7 @@ export default function MobileNav({ isOpen, onClose }: Nav) {
     <div className="fixed top-24 bg-transparent z-50 font-Roboto w-full">
       <div className="bg-black py-9 h-screen">
         <div className="flex mt-20 flex-col gap-9 text-white text-2xl px-6 font-light tracking-widest text-center">
-          <Link to="/liftLabs/" onClick={scrollUp}>
+          <Link to="/LiftLabs/" onClick={scrollUp}>
             HOME
           </Link>
           <Link to="#" onClick={handleAppClick}>
@@ -33,10 +33,10 @@ export default function MobileNav({ isOpen, onClose }: Nav) {
           <Link to="#" onClick={handleAppClick}>
             WORKOUTS
           </Link>
-          <Link to="/liftLabs/about" onClick={scrollUp}>
+          <Link to="/LiftLabs/about" onClick={scrollUp}>
             ABOUT
           </Link>
-          <Link to="/liftLabs/contact" onClick={scrollUp}>
+          <Link to="/LiftLabs/contact" onClick={scrollUp}>
             CONTACT
           </Link>
         </div>

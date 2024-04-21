@@ -32,7 +32,7 @@ export default function Footer() {
             className="hidden w-[59px] h-[53px] md:w-[120px] md:h-[91.58px] lg:block"
           />
           <div className="flex justify-center items-start flex-col gap-[50px] md:flex-row lg:flex-col">
-            <Link to="/liftLabs/" onClick={scrollUp}>
+            <Link to="/LiftLabs/" onClick={scrollUp}>
               <p className="font-semibold">HOME</p>
             </Link>
             <Link to="#" onClick={handleAppClick}>
@@ -41,10 +41,10 @@ export default function Footer() {
             <Link to="#" onClick={handleAppClick}>
               <p>Workouts</p>
             </Link>
-            <Link to="/liftLabs/about" onClick={scrollUp}>
+            <Link to="/LiftLabs/about" onClick={scrollUp}>
               <p>About</p>
             </Link>
-            <Link to="/liftLabs/contact" onClick={scrollUp}>
+            <Link to="/LiftLabs/contact" onClick={scrollUp}>
               <p>Contact</p>
             </Link>
           </div>

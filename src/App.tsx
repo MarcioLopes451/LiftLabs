@@ -12,9 +12,9 @@ function App() {
       <div className="bg-[#141619] text-white font-Roboto">
         <Navbar />
         <Routes>
-          <Route path="/liftLabs/" element={<HomePage />} />
-          <Route path="/liftLabs/about" element={<AboutUs />} />
-          <Route path="/liftLabs/contact" element={<ContactUs />} />
+          <Route path="/LiftLabs/" element={<HomePage />} />
+          <Route path="/LiftLabs/about" element={<AboutUs />} />
+          <Route path="/LiftLabs/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>
