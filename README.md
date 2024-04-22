@@ -1,13 +1,10 @@
 <div align="center">
-	<img src="./src/Images/Liftlabs (1)-cropped.svg" width="33%">
+	<img src="./src/Images/Liftlabs (1)-cropped.svg" width="25%">
 </div>
 
-<div style="margin-top: 20px">
-<p>About The Project</p>
-<p>
+## About the Project
+
 LiftLabs is a comprehensive fitness platform designed to provide users with a wide range of exercises and personalized workout plans tailored to their individual needs, empowering them to reach their fitness objectives with ease and efficiency.
-</p>
-</div>
 
 Credits for the design goes to [RadiusTheme](https://www.radiustheme.com/)
 
