@@ -32,4 +32,4 @@ Clone the repository Install dependencies by running npm install in the project 
 
 ### Contact Us Page 👇
 
-![Contact Us](<./src/Images/localhost_5173_LiftLabs_%20(3).png>)
+![Contact Us](<./src/Images/localhost_5173_LiftLabs_%20(8).png>)
