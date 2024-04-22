@@ -3,6 +3,7 @@
 LiftLabs is a comprehensive fitness platform designed to provide users with a wide range of exercises and personalized workout plans tailored to their individual needs, empowering them to reach their fitness objectives with ease and efficiency.
 
 Credits for the design goes to [RadiusTheme](https://www.radiustheme.com/)
+
 👉 Live Demo: [LiftLabs](https://marciolopes451.github.io/LiftLabs/)
 
 ## Tools used:
