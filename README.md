@@ -21,10 +21,10 @@ Clone the repository Install dependencies by running npm install in the project 
 
 ![homepage](<./src/Images/localhost_5173_LiftLabs_%20(1).png>)
 
-### About Us Page 🏡
+### About Us Page 👇
 
 ![About Us](<./src/Images/localhost_5173_LiftLabs_%20(2).png>)
 
-### Contact Us Page 🏡
+### Contact Us Page 👇
 
 ![Contact Us](<./src/Images/localhost_5173_LiftLabs_%20(3).png>)
