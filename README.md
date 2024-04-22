@@ -19,4 +19,4 @@ Clone the repository Install dependencies by running npm install in the project 
 
 ### Home Page 🏡
 
-![homepage](/Users/marciochopbala/Desktop/LiftLabs/src/Images/localhost*5173_LiftLabs* (1).png)
+![homepage](<./src/Images/localhost_5173_LiftLabs_%20(1).png>)
