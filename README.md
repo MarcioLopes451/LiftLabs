@@ -6,6 +6,7 @@ Credits for the design goes to [RadiusTheme](https://www.radiustheme.com/)
 👉 Live Demo: [LiftLabs](https://marciolopes451.github.io/LiftLabs/)
 
 ## Tools used:
+
 ReactJs (TypeScript)
 React Router Dom
 Tailwind CSS
@@ -15,3 +16,7 @@ Tailwind CSS
 Clone the repository Install dependencies by running npm install in the project directory Start the server by running npm run server in the project directory Start the client by running npm run client in a new terminal window Open http://localhost:3000 with your browser to see the result.
 
 ## Screenshots of the Project 📸
+
+### Home Page 🏡
+
+![homepage](/Users/marciochopbala/Desktop/LiftLabs/src/Images/localhost*5173_LiftLabs* (1).png)
