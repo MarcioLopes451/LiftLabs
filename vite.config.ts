@@ -8,4 +8,9 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
+  resolve: {
+    alias: {
+      "./runtimeConfig": "./runtimeConfig.browser",
+    },
+},
 })

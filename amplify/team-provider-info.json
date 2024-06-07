@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-liftlabs-dev-cb834-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423471590:role/amplify-liftlabs-dev-cb834-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423471590:role/amplify-liftlabs-dev-cb834-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-liftlabs-dev-cb834-deployment",
+      "UnauthRoleName": "amplify-liftlabs-dev-cb834-unauthRole",
+      "StackName": "amplify-liftlabs-dev-cb834",
+      "StackId": "arn:aws:cloudformation:eu-west-2:637423471590:stack/amplify-liftlabs-dev-cb834/7b799d70-24ab-11ef-8434-0a32a12b7e1f",
+      "AmplifyAppId": "d2jhoxjqqvhalt"
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-liftlabs-prod-66d48-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423471590:role/amplify-liftlabs-prod-66d48-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423471590:role/amplify-liftlabs-prod-66d48-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-liftlabs-prod-66d48-deployment",
+      "UnauthRoleName": "amplify-liftlabs-prod-66d48-unauthRole",
+      "StackName": "amplify-liftlabs-prod-66d48",
+      "StackId": "arn:aws:cloudformation:eu-west-2:637423471590:stack/amplify-liftlabs-prod-66d48/0f4d7df0-24fc-11ef-8ea7-0acc002f4285",
+      "AmplifyAppId": "d2jhoxjqqvhalt"
+    }
+  }
+}
